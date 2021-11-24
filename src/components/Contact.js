@@ -16,10 +16,10 @@ export default function contact() {
                     <Form.Label>Example textarea</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-               
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
+
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
             </Form>
 
         </div>
