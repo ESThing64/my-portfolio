@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 
 
 export default function NavBar(){
@@ -6,6 +9,7 @@ export default function NavBar(){
 
 <nav>
 <ul className="nav-bar">
+ 
   <li className="nav-item"> <a href="#top">me. </a> </li>
   <li className="nav-item"> <a href="#project-link">projects.</a> </li>
   <li className="nav-item"> <a href="#contact">contact.</a> </li>
