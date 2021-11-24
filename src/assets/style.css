@@ -1,0 +1,360 @@
+:root{
+
+    --orange: #FCA311;
+    --gray: #E5E5E5;
+
+    background-color: #14213D;
+
+}
+
+.image {
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+
+img.rounded-corners {
+    border-radius: 30px;
+  }
+  .tiles article header {
+    position: relative;
+    z-index: 3;
+}
+
+
+p{
+    color:     var(--orange);
+    margin: 0 33vw;
+}
+
+
+
+h2{
+    color: #fff;
+    margin-right: 15vw;
+    
+}
+
+
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+a{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    padding: 1rem; 
+    background-color: #14213D;
+}
+
+.nav-bar > li:hover{
+    color:     var(--orange);
+    text-decoration: underline;
+    
+}
+
+
+
+.nav-item{
+    padding: 2rem;
+}
+
+.me{
+    
+    text-align: center;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    margin-top: 25vh
+}
+
+.me-img{
+    display: block;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-bottom: 17vh;
+    margin-top: 10vh;
+}
+.sm-bar{
+
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    width: 400px;
+    margin: 0 auto;
+
+    
+    
+}
+
+/* animation */
+.sm-bar{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+
+ }
+ 
+ @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
+
+.sm-bar-li{
+padding: 1rem;
+margin-bottom: 3vh;
+
+}
+ 
+#h2-projects{
+    text-align: right;
+    margin-top: 16vh;
+    margin-bottom: 1vh;
+}
+
+.h2-contact{
+    text-align: right;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+}
+
+#project-link{
+    position: absolute;
+    top: 97vh;
+}
+
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 15vw;
+    
+    
+    
+}
+
+.star-project{
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: center;
+    padding-bottom: 5rem;
+   
+    
+}
+
+.pro{ 
+    
+    position: relative;
+    right: 14rem;
+    top: 32vh;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+   
+
+}
+
+
+.stara{
+    position: relative;
+    right: 22vw;
+    bottom: 6vh;
+    text-decoration: underline;
+}
+
+.project-card{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-bottom: 5rem;
+   
+    
+  
+}
+
+.spin-img {
+    transition: transform .7s ease-in-out;
+  }
+  img:hover {
+    transform: rotate(360deg);
+  }
+
+/* form-- inspired from w3schools.com */
+
+form{
+    color: var(--orange);
+}
+
+input {
+    width: 32%;
+    padding: 12px;
+    border: 10px solid var(--gray);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 10px solid var(--gray);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+  input[type=submit] {
+    background-color: var(--orange);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  .container {
+    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .artical-flex{
+      display: flex;
+    justify-content: center;
+   
+  }
+
+
+  footer{
+      
+      display: flex;
+      justify-content: center;
+      margin-top: 30vh;
+  }
+
+
+
+
+/* Media query  */
+@media screen and (max-width: 3440px) {
+    section{
+        
+        margin-bottom: 100px;
+
+    }
+
+    .me-img{
+        margin-top: 15vh;
+    }
+    
+}
+
+@media screen and (max-width: 1920px) {
+   p{
+
+    margin: 0 22vw;
+
+   }
+    
+}
+
+
+@media screen and (max-width: 1336px) {
+    p{
+ 
+     margin: 0 12vw;
+ 
+    }
+
+    .me-img{
+        margin-bottom: 15vh;
+        margin-top: 8vh;
+    }
+    
+     
+ }
+ 
+
+ @media screen and (max-width: 1024px) {
+    p{
+ 
+     margin: 0 5vw;
+ 
+    }
+
+    .me-img{
+        margin-bottom: 15vh;
+        margin-top: 8vh;
+    }
+    
+     
+ }
+
+ @media screen and (max-width: 750px) {
+    p{
+        font-size: 20px;
+ 
+     margin: 0 0vw;
+ 
+    }
+
+    .me-img{
+        margin-bottom: 4vh;
+        margin-top: 10vh;
+    }
+
+    .me{
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+
+  
+    
+    .star-project{
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: center;
+        border: black dotted;
+    }
+
+    .project-card{
+        display: flex;
+        justify-content: center;
+        flex: 0 0 100%;
+        max-width: 100%;
+     
+        border: black dotted;
+        
+    }
+    
+     
+ }
+
+
+
+
