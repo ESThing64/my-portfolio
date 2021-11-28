@@ -1,4 +1,4 @@
-# Fitness Tracker
+# React-Portfolio
 
 ## Deployed application 
 [Click here](https://esthing64.github.io/my-portfolio/)
